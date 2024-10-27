@@ -15,7 +15,7 @@ import java.util.Date;
 @EntityListeners(AuditingEntityListener.class)
 public abstract class BaseModel {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)  //Auto increemented id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)  //Auto incremented id
     private long Id;
 
     @CreatedDate
